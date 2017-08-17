@@ -1,0 +1,6 @@
+c:\users\sriram\documents\visual studio 2013\Projects\yummly\yummly\bin\yummly.dll.config
+c:\users\sriram\documents\visual studio 2013\Projects\yummly\yummly\bin\yummly.dll
+c:\users\sriram\documents\visual studio 2013\Projects\yummly\yummly\bin\yummly.pdb
+c:\users\sriram\documents\visual studio 2013\Projects\yummly\yummly\obj\Debug\yummly.csprojResolveAssemblyReference.cache
+c:\users\sriram\documents\visual studio 2013\Projects\yummly\yummly\obj\Debug\yummly.dll
+c:\users\sriram\documents\visual studio 2013\Projects\yummly\yummly\obj\Debug\yummly.pdb

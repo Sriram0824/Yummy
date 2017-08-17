@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="yummly.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Layout.css" rel="stylesheet" />
+    <link href="itemstylesheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+         <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="~/Scripts/jquery-2.1.4.min.js" /> 
+            <asp:ScriptReference Path="~/Scripts/yummly.js" />
+            <asp:ScriptReference Path="~/Scripts/JavaScript.js" />
+            
+            <asp:ScriptReference Path="~/Scripts/display.js" />
+        </Scripts>
+    </asp:ScriptManager>
+        <div class="container">
+
+    <div class="header"> 
+         <div class="headerspace">
+             <br/> <br/>
+             <input type="text" id="search"/>
+        <input type="button" value="submit" id="submit" onclick="displayDish()"/>
+           </div>
+        <div class="banner">
+       <h1> YUMMLY<font size="3"><sup class="sup">&trade;</sup></font></h1><sup></sup>
+           
+        </div>
+        <div class="user">
+            Welcome User
+        </div>
+    </div>
+    <div class="postheader">
+        
+        <div class="seasonal"><h4> Seasonal</h4></div>
+        <div class="justforyou"><h4>Just For You</h4></div>
+        <div class="popularnow"><h4>Popular Now</h4></div>
+        <div class="quickandeasy"><h4>Quick and Easy</h4></div>
+        <div class="weeknightdinner"><h5>Weeknight Dinners</h5></div>
+        <div class="yummlydish"><h4>Yummly Dish</h4></div>
+        <div class="phspace2">
+
+            <ul>
+  
+  <li>
+    CUSTOMIZE
+    <ul class="list">
+      <li>ADD A Recipe</li>
+      <li>Just for You</li>
+      <li>Collection Box</li>
+      <li>Sign Out</li>
+    </ul>
+  </li>
+  
+</ul>
+        </div>
+    </div>
+    
+    <div class="body">
+        
+
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+      </div>
+        
+    <div class="prefooter">
+        COPY RIGHTS @ MIS 2015
+
+    </div>
+    
+
+    
+
+</div>
+    </form>
+</body>
+</html>

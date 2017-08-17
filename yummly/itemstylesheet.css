@@ -1,0 +1,118 @@
+﻿.item-main {
+    display:flex;
+    flex-flow:wrap;
+    width:100%;
+
+}
+
+.item-name{
+    order:1;
+    height:150px;
+    width:100%;
+    color:#40293B;
+    font-family:'Comic Sans MS';
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    line-height:200px;
+    background-color:#D1E0E0;
+}
+
+
+
+.item-space1{
+    order:2;
+    width:25%;
+    height:410px;
+    font-family:'Comic Sans MS';
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    line-height:90px;
+     color:#40293B;
+     background-color:white;
+}
+
+.item-imagesection {
+    order: 3;
+    width: 50%;
+    height: 410px;
+
+    background-image: url('images/3.jpg');
+}
+
+.item-space2{
+    order:4;
+    width:25%;
+    height:410px;
+    background-color:white;
+}
+.item-space5{
+    order:5;
+    width:100%;
+    height:50px;
+}
+.item-space3{
+    order:6;
+    width:25%;
+    height:auto;
+    background-color:white;
+}
+.item-ingredients{
+    order:7;
+    width:50%;
+    height:auto;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-around;
+   
+}
+.ingsh{
+    width:100%;
+    height:50px;
+    
+    background-color:white;
+     color:tomato;
+     font-family:'Comic Sans MS';
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    line-height:40px;
+}
+.ings1{
+    width:100%;
+    height:50px;
+    
+    background-color:#D1E0E0;
+     color:#40293B;
+     font-family:'Comic Sans MS';
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    line-height:40px;
+}
+.ings2{
+    width:100%;
+    height:50px;
+    
+    background-color:white;
+     color:#40293B;
+     font-family:'Comic Sans MS';
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    line-height:40px;
+}
+.item-space4{
+    order:8;
+    width:25%;
+    height:auto;
+    background-color:white;
+}
+
+
+
+
+
+
+
